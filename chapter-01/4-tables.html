@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+  <style>
+    table, th, td {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h3>Tables in HTML</h3>
+  <table>
+    <caption>Programming Courses</caption>
+    <tr>
+      <td>Μάθημα</td>
+      <td>Καθηγητής</td>
+      <td>Μέρα/Ώρα</td>
+    </tr>
+    <tr>
+      <td>JAVA</td>
+      <td>Ανδρούτσος</td>
+      <td>Δευτέρα 18:00-21:00</td>
+    </tr>
+    <tr>
+      <td>SQL</td>
+      <td>Καπέτης</td>
+      <td>Πέμπτη 18:00-21:00</td>
+    </tr>
+    <tr>
+      <td>WEB</td>
+      <td>Καραμπάτσης</td>
+      <td>Παρασκευή 18:00-21:00</td>
+    </tr>
+  </table>
+
+  <p>
+    Table with headers
+  </p>
+
+  <table>
+    <tr>
+      <th>Lesson</th>
+      <th>Teacher</th>
+      <th>Day/Time</th>
+    </tr>
+    <tr>
+      <td>JAVA</td>
+      <td>Androutsos</td>
+      <td>Monday @ 18:00</td>
+    </tr>
+    <tr>
+      <td>SQL</td>
+      <td>Kapetis</td>
+      <td>Thursday @ 18:00</td>
+    </tr>
+    <tr>
+      <td>WEB</td>
+      <td>Karampatsis</td>
+      <td>Friday @ 18:00</td>
+    </tr>
+  </table>
+
+  <p>
+    Table with thead, tbody, tfoot
+  </p>
+
+  <table>
+      <thead>
+        <tr>
+          <th>Lesson</th>
+          <th>Teacher</th>
+          <th>Day/Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>JAVA</td>
+          <td>Androutsos</td>
+          <td>Monday @ 18:00</td>
+        </tr>
+        <tr>
+          <td>SQL</td>
+          <td>Kapetis</td>
+          <td>Thursday @ 18:00</td>
+        </tr>
+        <tr>
+          <td>WEB</td>
+          <td>Karampatsis</td>
+          <td>Friday @ 18:00</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Programming</td>
+          <td>Coding Factory</td>
+          <td>Days</td>
+        </tr>
+      </tfoot>
+  </table>
+
+  <p>Table Colspan</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Lesson</th>
+          <th>Teacher</th>
+          <th>Day/Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- <td>Learning Programming</td>
+          <td>-</td>
+          <td>-</td> -->
+          <td colspan="3">Learning Programming</td>
+        </tr>
+        <tr>
+          <td>JAVA</td>
+          <td>Androutsos</td>
+          <td>Monday</td>
+        </tr>
+        <tr>
+          <td>SQL</td>
+          <td>Kapetis</td>
+          <td>Wednesday</td>
+        </tr>
+        <tr>
+          <td>WEB</td>
+          <td>Karampatsis</td>
+          <td>Thursday</td>
+        </tr>
+        <tr>
+          <td>WEB</td>
+          <td>Karampatsis</td>
+          <td>Friday</td>
+        </tr>
+        <tr>
+          <td rowspan="2">WEB</td>
+          <td rowspan="2">Karampatsis</td>
+          <td>Thursday</td>
+        </tr>
+        <tr>
+          <!-- <td>WEB</td> -->
+          <!-- <td>Karampatsis</td> -->
+          <td>Friday</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Programming</td>
+          <td>Coding Factory</td>
+          <td>Days</td>
+        </tr>
+      </tfoot>
+  </table>
+
+  <!-- table>tr*3>td*4 -->
+  <table>
+    <tr>
+      <td>Denis Barko Learning Programming</td>
+      <td>Denis Barko Learning Programming</td>
+      <td>Denis Barko Learning Programming</td>
+      <td>Denis Barko Learning Programming</td>
+    </tr>
+    <tr>
+      <td>Denis Barko </td>
+      <td>Denis Barko </td>
+      <td>Denis Barko </td>
+      <td>Denis Barko </td>
+    </tr>
+    <tr>
+      <td>Denis Barko </td>
+      <td>Denis Barko </td>
+      <td>Denis Barko </td>
+      <td>Denis Barko </td>
+    </tr>
+  </table>
+<!-- Multiple line concurrent editing
+  1. Alt + click
+  2. Contrl + Alt + Down Arrow  
+-->
+</body>
+</html>

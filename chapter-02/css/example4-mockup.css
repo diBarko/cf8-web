@@ -1,0 +1,86 @@
+body {
+  background-color: lightgray;
+}
+
+.container {
+  border: 5px solid red;
+  width: 80%;
+  padding: 8px;
+}
+
+.container-fluid {
+  border: 5px solid blue;
+  width: 95%;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.aueb-text {
+  color: pink;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* Background Colours */
+.bg-dark {
+  background-color: black;
+}
+
+.bg-primary {
+  background-color: royalblue;
+}
+
+/* Font Colours */
+.text-white {
+  color: white;
+}
+
+/* Image Styling */
+.icon-small {
+  width: 150px;
+  height: auto;
+}
+
+/* List Styling */
+/* .courses-wrapper {
+  background-color:thistle;
+  text-decoration: none;
+} */
+.bg-thistle {
+  background-color:thistle;
+}
+
+/* Text Styling */
+.course-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color:bisque;
+}
+
+/* Selectors */
+ul > :first-child {
+  background-color: yellowgreen;
+  font-weight: bold;
+}
+
+ul > :nth-child(3) {
+  text-decoration: line-through;
+}
+
+ul > :nth-child(odd) {
+  color: red;
+}
+
+ul > :nth-child(even) {
+  text-decoration: underline
+}
+
+.container > h2:first-of-type {
+  font-size: 3rem;
+}
+
+.container > p:nth-of-type(2) {
+  font-size: 1.6rem;
+}

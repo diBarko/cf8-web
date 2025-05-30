@@ -1,0 +1,53 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: red;
+  text-align: justify;
+  border: 1px solid black;
+}
+
+h1 + p {
+  color: blue;
+}
+
+img ~ p {
+  background-color: lightblue;
+}
+
+a {
+  border: 1px solid red;
+}
+
+p {
+  border: 1px solid green;
+}
+
+/* Add context, right before link. */
+a::before {
+  content: '\1F604';
+}
+
+/* Add context, right after link. */
+a::after {
+  content: '\1F605';
+}
+
+/* Applies to all links having href "#". */
+a[href="#"]:hover {
+  background-color: pink;
+}
+
+/* Select all that class name starts with "info" */
+*[class^="info"] {
+  font-style: oblique;
+}
+
+/* Select all that class name contains "text" */
+*[class*="text"] {
+  font-size: large;
+}
+
+/* Select all that class name ends in "title" */
+*[class$="title"] {
+  text-decoration: double;
+}

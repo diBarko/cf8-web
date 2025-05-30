@@ -1,0 +1,24 @@
+/* .header {
+  border: 1px solid black;
+  height: 200px;
+  /* background-color: #762124; */
+  /* background-color: lightgray;
+} 
+  
+.aueb-img > img {
+  height: calc(90vh - 200px);
+  width: 99vw;
+}*/
+
+
+header {
+  border: 1px solid black;
+  height: 200px;
+  /* background-color: #762124; */
+  background-color: lightgray;
+}
+
+main > img {
+  height: calc(90vh - 200px);
+  width: 99vw;
+}

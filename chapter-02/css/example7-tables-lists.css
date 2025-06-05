@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  /* padding: 0;
+  margin: 0; */
+}
+
 .container {
   width: 800px;
   border: 2px solid black;
@@ -57,6 +63,8 @@ ul {
   background-color: lightblue;
   /* width: 500px; */
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul > li {

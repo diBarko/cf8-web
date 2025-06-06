@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: #762124;
+}
+
+.logo > img {
+  height: 120px;;
+  width: auto;
+}
+
+.nav {
+  width: 400px;  
+  /* background-color: pink; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  height: 120px;
+  align-items: center;
+}
+
+ul li a{
+  color: white;
+  background-color: #762124;
+  text-decoration: none;
+  padding: 5px;
+}
+
+ul li a:hover{
+  color: #762124;
+  background-color: white;
+}

@@ -16,10 +16,10 @@
         <span style="text-decoration: underline dotted; color: red; margin-left: 5px;">*</span>
       </p>
 
-      <!-- Below is used by sreen readers to tell this element contains personal info -->
+      <!-- "aria-labelledby" is used by sreen readers to tell this element contains personal info -->
       <div aria-labelledby="personal">  
         <h2 class="mt-20" id="personal">Personal Info</h2>
-        <fieldset>
+        <fieldset class="pl-10">
           <legend>Title</legend>
 
           <div>
@@ -33,21 +33,27 @@
           </div>
         </fieldset>
 
-        <div>
+        <div class="mt-20">
           <label for="mail">
             <span>E:mail</span>
+            <strong>
+              <abbr title="required" style="color: red">*</abbr>
+            </strong>
           </label>
           <input type="email" id="email">
         </div>
 
-        <div>
+        <div class="mt-20">
           <label for="password">
             <span>Password</span>
+            <strong>
+              <abbr title="required" style="color: red">*</abbr>
+            </strong>
           </label>
           <input type="password" id="password">
         </div>
 
-        <div>
+        <div class="mt-20 mb-20">
           <button>Submit</button>
         </div>
 

@@ -15,6 +15,29 @@
   margin-top: 20px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
 .p-10 {
   padding: 10px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+fieldset {
+  width: 250px;
+  margin-left: 150px;
+}
+
+input {
+  width: 250px;
+}
+
+label span {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
 }

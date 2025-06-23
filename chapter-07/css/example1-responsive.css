@@ -1,0 +1,22 @@
+body {
+  background-color: lightgray;
+  color: white;
+}
+
+/* @media all {
+  body {
+    background-color: lightblue;
+  }
+} */
+
+@media (min-width: 992px) {
+  body {
+    background-color: lightcoral;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    background-color: lightgreen;
+  }
+}

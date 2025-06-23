@@ -1,0 +1,29 @@
+.container {
+  padding: 15px;
+}
+
+.header {
+  background-color: cornflowerblue;
+}
+
+.side {
+  background-color: lightsalmon;
+}
+
+.box {
+  height: 150px;
+  border: 1px solid black;
+  margin-top: 5px;
+}
+
+.container-1 {
+  display: flex;
+}
+
+@media (max-width: 992px) {
+  .container-1 {
+    /* display:inherit; */
+    /* display: block; */
+    flex-direction: column;
+  }
+}

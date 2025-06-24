@@ -1,0 +1,124 @@
+:root {
+--my-navy: #002E94;
+--my-wedding: #FFE7CC;
+--my-beige: #E1CEB5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  flex: 25%;
+}
+
+main {
+  flex: 75%;
+  padding-left: 10px;
+  height: 100vh;
+  overflow: auto;
+}
+
+
+/* Displays */
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+
+/* Colours */
+.bg-navy {
+  /* background-color: navy; */
+  background-color: var(--my-navy);
+}
+
+.text-wedding {
+  color: var(--my-wedding);
+}
+
+.link-hover-blue:hover {
+  background-color: cornflowerblue;
+}
+
+.bg-beige {
+  background-color: var(--my-beige);
+}
+
+/* Margins & Paddings */
+.p-1 {
+  padding: 1rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.ms-1 {
+  margin-left: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}
+
+/* Fonts & Texts */
+.text-none {
+  text-decoration: none;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Images */
+.banner-image {
+  width: 300px;
+  height: auto;
+  border-radius: 10%;;
+}
+
+@media (max-width:992px) {
+  .flex-row {
+    flex-direction: column;
+  }
+}

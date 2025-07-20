@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Tailwind FLex Grid</title>
+</head>
+<body>
+  <div class="flex flex-col md:flex-row mb-3">
+    <div class="bg-blue-300 p-1 md:basis-3/12 basis-full hover:basis-1/2">
+      <h3>Hello 1</h3>
+      <p>Coding Factory</p>
+    </div>
+
+    <div class="bg-black text-white p-1 md:basis-9/12">
+      <h3>Hello 2</h3>
+      <p>Coding Factory</p>
+    </div>
+  </div>
+
+  <div class="flex flex-col md:flex-row mb-3">
+    <div class="bg-black text-white basis-full md:basis-6/12">
+      <h3>Hello 3</h3>
+      <p>Coding Factory</p>
+    </div>
+
+    <div class="bg-pink-300 basis-full md:basis-6/12">
+      <h3>Hello 4</h3>
+      <p>Coding Factory</p>
+    </div>
+  </div>
+
+  <div class="mb-3 grid grid-cols-1 md:grid-cols-3">
+    <div class="bg-yellow-300 p-1">
+      <h3>Hello 5</h3>
+      <p>Coding Factory</p>
+    </div>
+
+    <div class="bg-green-300 p-1">
+      <h3>Hello 6</h3>
+      <p>Coding Factory</p>
+    </div>
+
+    <div class="bg-purple-300 p-1">
+      <h3>Hello 7</h3>
+      <p>Coding Factory</p>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2">
+    <div class="bg-cyan-300 p-1">
+      <h3>Hello 8</h3>
+      <p>Coding Factory</p>
+    </div>
+
+    <div class="bg-orange-200 p-1">
+      <h3>Hello 9</h3>
+      <p>Coding Factory</p>
+    </div>
+  </div>
+</body>
+</html>
